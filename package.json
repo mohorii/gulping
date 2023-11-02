@@ -10,7 +10,6 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.23.2",
-    "bootstrap": "^5.3.2",
     "gulp": "^4.0.2",
     "gulp-better-rollup": "^4.0.1",
     "gulp-clean-css": "^4.3.0",
