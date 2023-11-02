@@ -29,7 +29,7 @@ function buildJs() {
       noSource: true
     }))
     .pipe(sourceMaps.write())
-    .pipe(dest('public/'))
+    .pipe(dest('assets/'))
 }
 
 
@@ -41,7 +41,7 @@ const buildCss = () => {
     }, null).on('error', compileSass.logError))
     .pipe(minifyCss())
     .pipe(sourceMaps.write())
-    .pipe(dest('public/'))
+    .pipe(dest('assets/'))
 }
 
 const watchFiles = () => {
