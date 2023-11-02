@@ -13,6 +13,8 @@ const resolve = require('rollup-plugin-node-resolve');
 const commonjs = require('rollup-plugin-commonjs');
 const globals = require('rollup-plugin-node-globals');
 
+// @todo: add Autoprefixer
+
 function buildJs() {
   return src('src/*.js')
     .pipe(sourceMaps.init())
@@ -29,7 +31,6 @@ function buildJs() {
     .pipe(sourceMaps.write())
     .pipe(dest('public/'))
 }
-
 
 
 const buildCss = () => {
