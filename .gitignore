@@ -1,0 +1,9 @@
+Icon
+.DS_Store
+*.sublime-workspace
+/.vscode
+/.idea
+.idea/
+
+node_modules/
+vendor/
